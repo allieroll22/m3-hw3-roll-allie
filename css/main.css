@@ -1,3 +1,7 @@
-header {
-  background-image: url("../img/banner-bg.png");
+nav {
+  height: 50px;
+  background-color: yellow-primary;
+}
+button {
+  background-color: yellow-primary;
 }
