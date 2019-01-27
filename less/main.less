@@ -26,6 +26,8 @@
     color:@black-primary;
   }
 }
+
+
 nav {
   height:90px;
   background-color: @yellow-primary;
@@ -71,9 +73,11 @@ article {
     #fontfamily.font();
     #fontfamily.p();
   }
-
+  img {
+    max-width: 200px;
+    max-height: 230px;
+  }
 }
-
 
 footer {
   background-color: @black-secondary;
@@ -82,4 +86,11 @@ footer {
 
 #article2 {
   background-color: @gray-primary;
+}
+
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 2000px;
+  }
 }
